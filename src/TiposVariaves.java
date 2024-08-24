@@ -12,6 +12,15 @@ public class TiposVariaves {
 
         System.out.println(VALOR_DE_PI);
 
+        int mediaFinal = 10;
+        if(mediaFinal < 6) 
+            System.out.println("Reprovado");
+        else if(mediaFinal == 6)
+            System.out.println("Recuperação");
+        else
+             System.out.println("Aprovado");
+        
+
     
     }
 }
